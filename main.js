@@ -20,7 +20,7 @@ function checkText() {
 
 function onUnBookmarked(){ // ブックマーク外れる
 	$.ajax({
-          url: "./json/text.json",
+          url: "./text.json",
           type: "GET",
           dataType: "json",
         })
